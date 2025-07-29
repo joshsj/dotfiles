@@ -1,0 +1,4 @@
+alias vi=nvim
+alias vim=nvim
+
+DOTNET_CLI_TELEMETRY_OPTOUT=1
