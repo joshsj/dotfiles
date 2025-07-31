@@ -37,11 +37,8 @@ chezmoi apply -v
 
 ## .NET
 
-```sh
-winget install Microsoft.DotNet.SDK.8
-```
+Install .NET SDK(s): `winget install Microsoft.DotNet.SDK.8`
 
 Setup IIS in Windows features
 
 Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app) then whatever's needed
-
