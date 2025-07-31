@@ -1,0 +1,34 @@
+[core]
+	autocrlf = true
+	longpaths = true
+	editor = nvim
+
+[user]
+	name = Joshua Sexton-Jones
+	email = 33764106+joshsj@users.noreply.github.com
+
+[alias]
+	cb = "!git branch --show-current | tr -d '\n'"
+	lc = rev-parse HEAD
+	co = checkout
+	rp = rev-parse
+	cp = cherry-pick
+	fo = "!git fetch origin $1:$1"
+	pushf = push --force-with-lease
+	pushu = push -u origin HEAD
+
+[protocol "file"]
+	#allow = always
+
+[status]
+	#submodulesummary = true
+
+[diff]
+	submodule = log
+
+[http]
+	#postBuffer = 157286400
+
+[includeIf "gitdir/i:c:/dev/work/"]
+	path = ./.gitconfig-work
+
