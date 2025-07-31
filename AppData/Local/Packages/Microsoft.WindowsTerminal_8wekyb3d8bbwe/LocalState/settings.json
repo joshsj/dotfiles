@@ -97,5 +97,5 @@
     "tabWidthMode": "titleLength",
     "theme": "dark",
     "themes": [],
-    "useAcrylicInTabRow": true
+    "useAcrylicInTabRow": false
 }
