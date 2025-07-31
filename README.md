@@ -1,5 +1,7 @@
 # dotfiles
 
+Using [chezmoi](https://www.chezmoi.io) for management.
+
 ## Setup
 
 Install git and setup ssh.
