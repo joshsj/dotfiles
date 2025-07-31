@@ -23,6 +23,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 
 # add .pub to GH
+# https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key
 ```
 
 Install chezmoi and pull my dotfiles
@@ -35,10 +36,27 @@ chezmoi init git@github.com:joshsj/dotfiles
 chezmoi apply -v
 ```
 
-## .NET
+## Fonts
 
-Install .NET SDK(s): `winget install Microsoft.DotNet.SDK.8`
+[Iosevka Term (nerd font)](https://www.nerdfonts.com/font-downloads)
+
+## Neovim
+
+Install [kickstart.nvim dependencies](https://github.com/nvim-lua/kickstart.nvim?tab=readme-ov-file#install-external-dependencies)
+
+## Dotnet
+
+### SDKs
 
 Setup IIS in Windows features
 
-Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app) then whatever's needed
+Dotnet SDK(s): `winget install Microsoft.DotNet.SDK.8`
+
+Dotnet dev certificate: `dotnet dev-certs https -t -q`
+
+### IDE
+
+Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app)
+
+Install Rider plus theme(s) and IdeaVim
+
