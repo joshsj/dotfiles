@@ -60,3 +60,7 @@ Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app)
 
 Install Rider plus theme(s) and IdeaVim
 
+## JS
+
+Install [Node](https://nodejs.org/en/download)
+
