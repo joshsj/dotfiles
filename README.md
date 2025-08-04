@@ -58,7 +58,7 @@ Dotnet dev certificate: `dotnet dev-certs https -t -q`
 
 Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app)
 
-Install Rider plus theme(s) and IdeaVim; configuire with 
+Install Rider plus theme(s) and IdeaVim; configure with:
 
 - Inlays = on keypress
 - Intellisense = don't autoshow
