@@ -64,6 +64,10 @@ Install Rider plus theme(s) and IdeaVim; configure with:
 - Intellisense = don't autoshow
 - End bracket/quote auto-insert = off
 
+### Tools
+
+Install [LinqPad](https://www.linqpad.net/download.aspx)
+
 ## JS
 
 Install [Node](https://nodejs.org/en/download)
