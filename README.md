@@ -54,6 +54,8 @@ Dotnet SDK(s): `winget install Microsoft.DotNet.SDK.8`
 
 Dotnet dev certificate: `dotnet dev-certs https -t -q`
 
+Azure Functions Core Tools: `winget install Microsoft.Azure.FunctionsCoreTools`
+
 ### IDE
 
 Install [JetBrains Toolbox](https://www.jetbrains.com/toolbox-app)
@@ -66,7 +68,9 @@ Install Rider plus theme(s) and IdeaVim; configure with:
 
 ### Tools
 
-Install [LinqPad](https://www.linqpad.net/download.aspx)
+Install [LinqPad]()
+
+Install
 
 ## JS
 

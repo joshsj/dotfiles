@@ -1,6 +1,4 @@
-﻿let mapleader=" "
-
-set linenumber
+﻿set linenumber
 set relativenumber
 set showmode
 set showcmd
@@ -18,12 +16,17 @@ set highlightedyank
 set sneak
 set nerdtree
 
+let mapleader = " "
+
 nmap <Esc> :noh<CR>
 
 nmap <Up> <nop>
 nmap <Down> <nop>
 nmap <Left> <nop>
 nmap <Right> <nop>
+
+map <leader>cr <Action>(RenameElement)
+map <leader>ca <Action>(ShowIntentionActions)
 
 nmap gI <Action>(ReSharperGotoImplementation)
 nmap gr <Action>(FindUsages)
@@ -36,3 +39,6 @@ vmap <A-k> <Action>(MoveLineUp)
 
 vmap gq <Action>(ReformatCode)
 vmap gc <Action>(CommentByLineComment)
+
+imap <C-i> <Action>(copilot.requestCompletions)
+
