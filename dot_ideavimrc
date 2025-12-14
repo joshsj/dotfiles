@@ -25,6 +25,8 @@ nmap <Down> <nop>
 nmap <Left> <nop>
 nmap <Right> <nop>
 
+map <leader><Space> <Action>(SearchEverywhere)
+
 map <leader>cr <Action>(RenameElement)
 map <leader>ca <Action>(ShowIntentionActions)
 
