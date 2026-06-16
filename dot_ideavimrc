@@ -42,5 +42,5 @@ vmap <A-k> <Action>(MoveLineUp)
 vmap gq <Action>(ReformatCode)
 vmap gc <Action>(CommentByLineComment)
 
-imap <C-i> <Action>(copilot.requestCompletions)
+imap <C-i> <Action>(CallInlineCompletionAction)
 
