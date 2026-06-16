@@ -13,9 +13,11 @@
 	co = checkout
 	rp = rev-parse
 	cp = cherry-pick
+	wt = worktree
 	fo = "!git fetch origin $1:$1"
 	pushf = push --force-with-lease
 	pushu = push -u origin HEAD
+	pushb = "!f() { git push origin \"HEAD~$1:refs/heads/$(git branch --show-current)\"; }; f"
 
 [protocol "file"]
 	#allow = always
