@@ -18,6 +18,7 @@
 	pushf = push --force-with-lease
 	pushu = push -u origin HEAD
 	pushb = "!f() { git push origin \"HEAD~$1:refs/heads/$(git branch --show-current)\"; }; f"
+	mc = "diff --name-only --diff-filter=U --relative"
 
 [protocol "file"]
 	#allow = always
@@ -28,9 +29,12 @@
 [diff]
 	submodule = log
 
+	tool = vimdiff
 [http]
 	#postBuffer = 157286400
 
 [includeIf "gitdir/i:c:/dev/work/"]
 	path = ./.gitconfig-work
 
+[difftool]
+	prompt = false

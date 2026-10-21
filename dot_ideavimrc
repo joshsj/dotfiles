@@ -25,14 +25,29 @@ nmap <Down> <nop>
 nmap <Left> <nop>
 nmap <Right> <nop>
 
+" Matching kickstart.nvim
 map <leader><Space> <Action>(SearchEverywhere)
+map <leader>sg <Action>(FindInPath)
+" Custom
+map <leader>sr <Action>(ReplaceInPath)
+
+" Fallback to Rider's find+replace
+nmap <C-/> <Action>(Replace)
+vmap <C-/> <Action>(Replace)
 
 map <leader>cr <Action>(RenameElement)
 map <leader>ca <Action>(ShowIntentionActions)
 
+" todo not sure if I like this for hot reload
+map <leader>xr <Action>(RiderDebuggerApplyEncChagnes)
+
+nmap <leader>yr <Action>(CopyReference)
+
 nmap gI <Action>(ReSharperGotoImplementation)
 nmap gr <Action>(FindUsages)
 nmap gc <Action>(CommentByLineComment)
+nmap gb <Action>(GotoSuperMethod)
+nmap gG ggVG
 
 nmap <A-j> <Action>(MoveLineDown)
 nmap <A-k> <Action>(MoveLineUp)
@@ -44,3 +59,4 @@ vmap gc <Action>(CommentByLineComment)
 
 imap <C-i> <Action>(CallInlineCompletionAction)
 
+cnoremap <C-v> <C-r>+
