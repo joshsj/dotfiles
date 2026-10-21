@@ -1,29 +1,10 @@
-﻿set linenumber
-set relativenumber
-set showmode
-set showcmd
-
-set ignorecase
-set smartcase
-set incsearch
-set hlsearch
-set visualbell
-
-set clipboard+=unnamed
+﻿" Shared vim options and keymaps (also sets mapleader)
+source ~/.vimrc
 
 set surround
 set highlightedyank
 set sneak
 set nerdtree
-
-let mapleader = " "
-
-nmap <Esc> :noh<CR>
-
-nmap <Up> <nop>
-nmap <Down> <nop>
-nmap <Left> <nop>
-nmap <Right> <nop>
 
 " Matching kickstart.nvim
 map <leader><Space> <Action>(SearchEverywhere)
@@ -47,7 +28,6 @@ nmap gI <Action>(ReSharperGotoImplementation)
 nmap gr <Action>(FindUsages)
 nmap gc <Action>(CommentByLineComment)
 nmap gb <Action>(GotoSuperMethod)
-nmap gG ggVG
 
 nmap <A-j> <Action>(MoveLineDown)
 nmap <A-k> <Action>(MoveLineUp)
@@ -58,5 +38,3 @@ vmap gq <Action>(ReformatCode)
 vmap gc <Action>(CommentByLineComment)
 
 imap <C-i> <Action>(CallInlineCompletionAction)
-
-cnoremap <C-v> <C-r>+

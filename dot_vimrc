@@ -1,0 +1,25 @@
+set number
+set relativenumber
+set showmode
+set showcmd
+
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+set visualbell
+
+set clipboard+=unnamed
+
+let mapleader = " "
+
+nmap <Esc> :noh<CR>
+
+nmap <Up> <nop>
+nmap <Down> <nop>
+nmap <Left> <nop>
+nmap <Right> <nop>
+
+nmap gG ggVG
+
+cnoremap <C-v> <C-r>+
