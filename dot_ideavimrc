@@ -5,6 +5,7 @@ set surround
 set highlightedyank
 set sneak
 set nerdtree
+set quickscope
 
 " Matching kickstart.nvim
 map <leader><Space> <Action>(SearchEverywhere)
